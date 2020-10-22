@@ -5,23 +5,88 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="" />
+    <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/account_inactive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_signup_message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_signup_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/password_reset_key_message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/password_reset_key_subject.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email_confirm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/logout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/cannot_delete_primary_email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_confirmation_sent.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_confirmed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_deleted.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/logged_in.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/logged_out.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/password_changed.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/password_set.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/primary_email_set.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/unverified_primary_email.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_change.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_from_key.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_from_key_done.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_set.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/signup_closed.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/snippets/already_logged_in.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/verification_sent.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/verified_email_required.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/authentication_error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/connections.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/login_cancelled.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected_other.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected_updated.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_disconnected.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/signup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/snippets/login_extra.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/snippets/provider_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/design_lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/design_lab.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jC86yYGV8GkxkDu4K9fcEZfzf6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/templates/allauth" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\sttec\OneDrive\full stack dev\data project\design_lab\templates\allauth" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -79,10 +144,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="550" y="118" key="EnvironmentVariablesDialog/0.0.1366.728@0.0.1366.728" timestamp="1603296939669" />
-    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603307654757">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1603359246335">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603307654757" />
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1603359246335" />
+    <state x="315" y="17" key="SettingsEditor" timestamp="1603359464909">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="315" y="17" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1603359464909" />
     <state x="389" y="97" width="587" height="534" key="find.popup" timestamp="1603298084643">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
