@@ -6,54 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/account_inactive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_signup_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_signup_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/email_confirmation_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/password_reset_key_message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email/password_reset_key_subject.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/email_confirm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/logout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/cannot_delete_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_confirmation_sent.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_confirmed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/email_deleted.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/logged_in.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/logged_out.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/password_changed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/password_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/primary_email_set.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/messages/unverified_primary_email.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_change.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_from_key.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_reset_from_key_done.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/password_set.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/signup_closed.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/snippets/already_logged_in.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/verification_sent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/account/verified_email_required.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/authentication_error.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/connections.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/login_cancelled.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected_other.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_connected_updated.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/messages/account_disconnected.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/snippets/login_extra.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/allauth/templates/socialaccount/snippets/provider_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/design_lab.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/design_lab.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
