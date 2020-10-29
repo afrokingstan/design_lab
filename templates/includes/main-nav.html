@@ -5,10 +5,10 @@
                 All Designs <i class="fas fa-caret-down"></i>
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-categories-link">
-                <a href="" class="dropdown-item">Posters</a>
-                <a href="" class="dropdown-item ">Logos</a>
-                <a href="" class="dropdown-item ">Icons</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Designs</a>
+                <a href="{% url 'products' %}?category=Posters" class="dropdown-item">Posters</a>
+                <a href="{% url 'products' %}?category=Logos" class="dropdown-item ">Logos</a>
+                <a href="{% url 'products' %}?category=Icons" class="dropdown-item ">Icons</a>
+                <a href="{% url 'products' %}?category=Posters,Logos,Icons" class="dropdown-item">All Designs</a>
             </div>
         </li>
 
