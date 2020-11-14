@@ -7,7 +7,7 @@ class OrderForm(forms.ModelForm):
         model = Order
         fields = ('project_name', 'project_description',
                   'project_owner_full_name', 'project_owner_email',
-                  'project_owner_phone_number', 'street_address1',
+                  'project_owner_phone_number', 'full_name', 'email', 'phone_number', 'street_address1',
                   'street_address2', 'town_or_city', 'postcode',
                   'country', 'county',
                   )
@@ -24,6 +24,9 @@ class OrderForm(forms.ModelForm):
             'project_owner_full_name': 'Project Owner Full Name',
             'project_owner_email': 'Project Owner Email Address',
             'project_owner_phone_number': 'Project Owner Phone Number',
+            'full_name': 'Your Full Name',
+            'email': 'Your Email Address',
+            'phone_number': 'Your Phone Number',
             'country': 'Country',
             'postcode': 'Postal Code',
             'town_or_city': 'Town or City',

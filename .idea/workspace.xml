@@ -7,9 +7,14 @@
   <component name="ChangeListManager">
     <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/static/checkout/js/stripe_elements.js" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/static/checkout/js/stripe_elements.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkout/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/checkout/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_lab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_lab/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,10 +111,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1603296941890" />
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1605068774652">
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog" timestamp="1605340750578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605068774652" />
+    <state x="92" y="92" width="1182" height="544" maximized="true" key="DiffContextDialog/0.0.1366.728@0.0.1366.728" timestamp="1605340750578" />
     <state x="550" y="118" key="EnvironmentVariablesDialog" timestamp="1603296939669">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -126,9 +131,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="57" y="148" width="1182" height="544" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1603859533366" />
-    <state x="389" y="97" width="698" height="534" key="find.popup" timestamp="1603386820149">
+    <state x="293" y="139" width="729" height="534" key="find.popup" timestamp="1605345415186">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="389" y="97" width="698" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1603386820149" />
+    <state x="293" y="139" width="729" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605345415186" />
   </component>
 </project>
