@@ -80,13 +80,6 @@ form.addEventListener('submit', function(ev) {
                     }
                 }
             },
-            project_details: {
-                project_name: $.trim(form.project_name.value),
-                project_description: $.trim(form.project_description.value),
-                project_owner_full_name: $.trim(form.project_owner_full_name.value),
-                project_owner_email: $.trim(form.project_owner_email.value),
-                project_owner_phone_number: $.trim(form.project_owner_phone_number.value),
-                },
         }).then(function(result) {
             if (result.error) {
                 var errorDiv = document.getElementById('card-errors');
