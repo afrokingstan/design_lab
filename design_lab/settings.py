@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     'DesignCategory',
     'bag',
     'checkout',
-
+    'profiles',
 
     #Other
     'crispy_forms',
