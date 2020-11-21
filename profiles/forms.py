@@ -14,6 +14,11 @@ class UserProfileForm(forms.ModelForm):
         """
         super().__init__(*args, **kwargs)
         placeholders = {
+            'default_project_name': 'Project Name',
+            'default_project_description': 'Project Description',
+            'default_project_owner_full_name': 'Project Owner Name',
+            'default_project_owner_email': 'Project Owner Email',
+            'default_project_owner_phone_number': 'Project Owner Phone Number',
             'default_phone_number': 'Phone Number',
             'default_postcode': 'Postal Code',
             'default_town_or_city': 'Town or City',
@@ -22,7 +27,7 @@ class UserProfileForm(forms.ModelForm):
             'default_county': 'County, State or Locality',
         }
 
-        self.fields['default_phone_number'].widget.attrs['autofocus'] = True
+        self.fields['default_project_name'].widget.attrs['autofocus'] = True
         for field in self.fields:
             if field != 'default_country':
                 if self.fields[field].required:
