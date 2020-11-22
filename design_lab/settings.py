@@ -26,7 +26,7 @@ SECRET_KEY = 'ft$p=w9a%e3#zgky%lg7%!1giu90z0o51mwx_s(p(dxoj9m4wj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['c6a29d5edffd.ngrok.io', 'localhost']
 
 
 # Application definition
@@ -94,14 +94,14 @@ TEMPLATES = [
 
 MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 
-AUTHENTICATION_BACKENDS = [
+AUTHENTICATION_BACKENDS = (
     #Copied from django allauth documentation
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
 
     # `allauth` specific authentication methods, such as login by e-mail
     'allauth.account.auth_backends.AuthenticationBackend',
-]
+)
 
 SITE_ID = 4
 
@@ -179,3 +179,5 @@ STRIPE_CURRENCY = 'gbp'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51HXaNSFTb16hvwrfEok9C4SXIJdPRunBGx4O4oQzvwW9iqnjozAxF1TgS4qpycYNimR5uEAEGe76l9xAZ6JEy3xk00BBmsYbcc')
 STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
 STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+DEFAULT_FROM_EMAIL = 'designlab@example.com'
