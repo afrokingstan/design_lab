@@ -5,12 +5,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/templates/checkout/checkout_success.html" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/templates/checkout/checkout_success.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/checkout/webhook_handler.py" beforeDir="false" afterPath="$PROJECT_DIR$/checkout/webhook_handler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/design_lab/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/design_lab/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="1cb56920-23ad-41b0-80cd-73e7a2812b0a" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
