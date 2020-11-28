@@ -1,15 +1,11 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.contrib import messages
-
-from django.db.models import Q
-from django.db.models.functions import Lower
 
 from .models import Portfolio
 from .forms import PortfolioForm
 
 
 def all_portfolio(request):
-    """ A view to show all products, including sorting and search queries """
+    """ A view to show all portfolio """
 
     portfolios = Portfolio.objects.all()
 
@@ -22,7 +18,7 @@ def all_portfolio(request):
 
 
 def add_portfolio(request):
-    """ Add a product to the store """
+    """ Add a portfolio to the store """
     form = PortfolioForm()
     template = 'portfolio/add_portfolio.html'
     context = {
@@ -30,3 +26,15 @@ def add_portfolio(request):
     }
 
     return render(request, template, context)
+
+
+def portfolio_detail(request, portfolio_id):
+    """ A view to show individual product details """
+
+    portfolio = get_object_or_404(Portfolio, pk=portfolio_id)
+
+    context = {
+        'portfolio': portfolio,
+    }
+
+    return render(request, 'portfolio/portfolio_detail.html', context)
