@@ -33,7 +33,6 @@ body {
     min-width: 260px;
 }
 
-input.submit-post,
 .btn-black {
     background: black;
     color: white;
