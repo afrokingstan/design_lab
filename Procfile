@@ -1,0 +1,1 @@
+web: gunicorn design_lab.wsgi:application
