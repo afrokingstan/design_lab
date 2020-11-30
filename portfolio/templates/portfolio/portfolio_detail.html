@@ -43,7 +43,7 @@
                     </small>
                     {% endif %}
                     <p class="mt-3">{{ portfolio.review }}</p>
-                    <p class="mt-2">{% get_review_count for portfolio as review_count %}This portfolio has {{ review_count }} reviews.</p>
+                    <p class="mt-2">{% get_review_count for portfolio as review_count %} {{ review_count }} Reviews.</p>
                     {% render_review_list for portfolio %}
 
                     {% get_review_form for portfolio as form %}
@@ -66,7 +66,7 @@
                           </td>
                         </tr>
 
-                    <input type="hidden" name="next" value="{% url 'portfolio_detail' portfolio.id %}" />
+                        <input type="hidden" name="next" value="{% url 'portfolio_detail' portfolio.id %}" />
                       </form>
                     </table>
                 </div>

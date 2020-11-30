@@ -22,13 +22,13 @@ def portfolio_detail(request, portfolio_id):
     """ A view to show individual portfolio details """
 
     portfolio = get_object_or_404(Portfolio, pk=portfolio_id)
+    messages.success(request, 'Reviews have to be approved before made public')
 
     context = {
         'portfolio': portfolio,
     }
 
     return render(request, 'portfolio/portfolio_detail.html', context)
-
 
 
 @login_required
@@ -43,7 +43,7 @@ def add_portfolio(request):
         if form.is_valid():
             form.save()
             messages.success(request, 'Successfully added to Portfolio!')
-            return redirect(reverse('add_portfolio'))
+            return redirect(reverse('portfolio'))
         else:
             messages.error(request, 'Failed to add to Portfolio. Please ensure the form is valid.')
     else:
@@ -54,6 +54,7 @@ def add_portfolio(request):
     }
 
     return render(request, template, context)
+
 
 
 @login_required

@@ -4,7 +4,6 @@ from .models import Portfolio
 
 class PortfolioAdmin(admin.ModelAdmin):
     list_display = (
-        'user_id',
         'name',
         'rating',
         'category',
