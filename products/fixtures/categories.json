@@ -1,1 +1,1 @@
-[{"pk":1,"model":"products.category","fields":{"name":"Posters","friendly_name":"Posters"}},{"pk":2,"model":"products.category","fields":{"name":"Logos","friendly_name":"Logos"}},{"pk":3,"model":"products.category","fields":{"name":"Icons","friendly_name":"Icons"}}]
+[{"pk":1,"model":"products.category","fields":{"name":"Posters","friendly_name":"Poster"}},{"pk":2,"model":"products.category","fields":{"name":"Logos","friendly_name":"Logo"}},{"pk":3,"model":"products.category","fields":{"name":"Icons","friendly_name":"Icon"}}]
