@@ -22,7 +22,7 @@ def portfolio_detail(request, portfolio_id):
     """ A view to show individual portfolio details """
 
     portfolio = get_object_or_404(Portfolio, pk=portfolio_id)
-    messages.success(request, 'Reviews have to be approved before made public')
+    messages.info(request, 'Reviews have to be approved before made public')
 
     context = {
         'portfolio': portfolio,
