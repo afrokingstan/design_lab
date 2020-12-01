@@ -27,9 +27,15 @@
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 {% if portfolio.image %}
-                                <a href="{% url 'portfolio_detail' portfolio.id %}">
-                                    <img class="card-img-top img-fluid" src="{{ portfolio.image.url }}" alt="{{ portfolio.name }}">
-                                </a>
+                                    {% if user.is_authenticated %}
+                                    <a href="{% url 'portfolio_detail' portfolio.id %}">
+                                        <img class="card-img-top img-fluid" src="{{ portfolio.image.url }}" alt="{{ portfolio.name }}">
+                                    </a>
+                                    {% else %}
+                                        <a href="{% url 'account_signup' %}">
+                                            <img class="card-img-top img-fluid" src="{{ portfolio.image.url }}" alt="{{ portfolio.name }}">
+                                        </a>
+                                    {% endif %}
                                 {% else %}
                                 <a href="{% url 'portfolio_detail' portfolio.id %}">
                                     <img class="card-img-top img-fluid" src="{{ MEDIA_URL }}noimage.png" alt="{{ portfolio.name }}">
