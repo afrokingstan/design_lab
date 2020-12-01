@@ -9,6 +9,7 @@ django-bootstrap==0.2.4
 django-bootstrap4==2.2.0
 django-countries==6.1.3
 django-crispy-forms==1.9.2
+django-rated-reviews==0.6.0
 django-storages==1.10.1
 docutils==0.16
 gunicorn==20.0.4
